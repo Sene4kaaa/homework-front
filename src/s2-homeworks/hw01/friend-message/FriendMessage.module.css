@@ -5,13 +5,13 @@
 
 .friendImageAndText {
     display: flex;
-    align-items:  flex-end;
+    align-items: flex-end;
 }
 
 .friendImageAndText img {
     height: 50px;
     width: 50px;
-    margin: 15px 10px 0 15px;
+    margin: 15px 10px 0 0;
     order: 1;
 }
 
@@ -19,10 +19,11 @@
     position: relative;
     background-color: darkgray;
     color: #FFFFFF;
-    margin-left: auto;
+    margin-right: auto;
     padding: 8px 13px 10px 8px;
     border-radius: 10px;
     max-width: 350px;
+    order: 2;
 }
 
 .friendText:after {
@@ -46,11 +47,12 @@
 
 .friendMessageText {
     font-size: 16px;
+    margin-right: 10px;
 }
 
 .friendTime {
     font-size: 12px;
     font-weight: bold;
     text-align: left;
-    margin: 5px 20px 0 0;
+    margin: 5px 0 0 10px;
 }
