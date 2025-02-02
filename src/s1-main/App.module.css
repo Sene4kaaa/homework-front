@@ -3,9 +3,13 @@
 }
 
 .hw {
-
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
 }
 
 .hwTitle {
-
+    padding: 20px 0px 20px 20px;
+    font-weight: bold;
+    border-bottom: 1px solid darkgray;
 }
